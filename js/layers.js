@@ -25,4 +25,9 @@ addLayer("s", {
         {key: "S", description: "S: Reset for more suck", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-})
+},
+upgrades: {
+    11: {
+
+    },
+},)
